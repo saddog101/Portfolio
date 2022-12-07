@@ -99,7 +99,7 @@ h1{
 
 
 
-@media(max-width:1490px){
+@media(max-width:1000px){
     .hero-div{
         padding-top: 20% !important;
     }
