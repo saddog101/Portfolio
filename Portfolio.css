@@ -98,7 +98,16 @@ h1{
 
 
 
+@media(max-width:1490px){
+    .hero-div{
+        padding-top: 10% !important;
+    }
+    .down-btn{
+        display: none !important;
+        visibility: hidden !important;
+    }   
 
+}
 
 .hero-div{
     margin-right: 10%;
