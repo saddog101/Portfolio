@@ -99,15 +99,7 @@ h1{
 
 
 
-@media(max-width:1490px){
-    .hero-div{
-        padding-top: 10%;
-    }
-    .down-btn{
-        display: none;
-    }   
 
-}
 
 .hero-div{
   margin-right: 10%;
