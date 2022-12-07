@@ -1,0 +1,178 @@
+.logo{
+    width: 6rem;
+    padding-top: 1rem;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@media (max-width: 1490px) {
+  .navbar{
+      padding-left:0rem !important;
+      padding-right:0rem !important;
+      margin-left:0rem !important;
+      margin-right:0rem !important;
+  }
+  
+}
+
+.navbar{
+  padding-top: 0rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.5rem;
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+  
+}
+
+.nav-item{
+    margin-left: 1.2rem;
+}
+
+.nav-item:hover{
+    font-weight: 700;
+}
+
+.navbar:hover{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.emphasis{
+    font-family: 'Bauhaus Modern', sans-serif;
+    font-weight: 900;
+                                                
+}
+.hero{
+ color:white;
+ justify-content: center;
+ 
+ animation: fadeInAnimation ease 3s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ 
+
+}
+
+
+
+.hero-text{
+    font-weight: 200;
+    margin-top: 1.5rem;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+@media(max-width:900px){
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+.navbar:hover{
+    background-color: black;
+    
+}
+.navbar-dark{
+    color:white;
+}
+.down-btn{
+    bottom:0;
+    position:absolute;
+    padding-bottom: 2rem;
+    padding-left:48%;
+    padding-top: 1;
+    padding-right:52%;
+    transition: transform 200ms ease-in;
+    color:white;
+}
+
+
+
+@media(max-width:1490px){
+    .hero-div{
+        padding-top: 5%;
+    }
+    .down-btn{
+        display: none;
+        visibility: hidden;
+    }   
+
+}
+
+.hero-div{
+    margin-right: 10%;
+    margin-left: 12%;
+    padding-top: 15%;
+}
+
+.down-btn:hover{
+    font-weight: 800;
+    
+    
+    transform: scale(1.20) translateX(5px);
+   
+    -webkit-text-stroke: 4px rgba(255, 255, 255,1);
+    color:white;
+    
+}
+
+.down-btn:hover a{
+  color:white;
+}
+a{
+  color:rgb(95, 95, 95);
+}
+
+
+  .works{
+    margin-top: 50%;
+    
+  
+  }
+
+  .card{
+    border-color: transparent;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    margin-left: -0.2rem;
+    transition: transform 200ms ease-in;
+  }
+  .card-img-top{
+    border-radius: 0.1rem;
+   
+  }
+
+  .card-container{
+    margin:2rem;
+  }
+
+  .card-container:hover .card{
+    opacity: 0.8;
+    filter: blur(5px) ;
+    
+  
+  }
+
+  .card-container .card:hover{
+      opacity: 1;
+      filter: blur(0px) saturate(1.1);
+      transform: scale(1.02);
+      
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  
