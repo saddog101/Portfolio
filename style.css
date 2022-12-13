@@ -69,6 +69,7 @@
 .hero-text{
     font-weight: 200;
     margin-top: 1.5rem;
+    color:white;
 }
 
 h1{
@@ -179,4 +180,42 @@ a{
     text-decoration: none;
   }
   
-  
+  .aboutme{
+
+    padding-top: 13rem;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+  }
+
+  p{
+    color: white;
+    font-size: 1.5rem;
+  }
+  .space{
+    margin-bottom: 1.5rem;
+  }
+
+  .pic{
+    width: 95%;
+    padding-bottom: 3rem;
+  }
+
+  .intro{
+    font-size: 1rem;
+  }
+
+  .section-about{
+    padding-top: 5rem;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @media (max-width: 900px) {
+    .section-about{
+      padding-top: 2rem;
+    }
+    
+  }
