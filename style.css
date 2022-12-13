@@ -19,7 +19,7 @@
       padding-right:0rem !important;
       margin-left:0rem !important;
       margin-right:0rem !important;
-      position: relative;
+      position: relative !important;
   }
   
 }
@@ -105,7 +105,7 @@ h1{
 
 @media(max-width:1000px){
     .hero-div{
-        padding-top: 20% !important;
+        padding-top: 10% !important;
     }
     .down-btn{
         display: none !important;
@@ -150,7 +150,7 @@ a{
     background-color: transparent;
     margin-bottom: 1rem;
     margin-left: -0.2rem;
-    transition: transform 200ms ease-in;
+    transition: transform 400ms ease-in;
   }
   .card-img-top{
     border-radius: 0.1rem;
@@ -162,6 +162,7 @@ a{
   }
 
   .card-container:hover .card{
+    transition: 400ms ease-in;
     opacity: 0.8;
     filter: blur(5px) ;
     
@@ -169,6 +170,7 @@ a{
   }
 
   .card-container .card:hover{
+      transition: 400ms ease-in;
       opacity: 1;
       filter: blur(0px) saturate(1.1);
       transform: scale(1.02);
@@ -200,6 +202,7 @@ a{
   .pic{
     width: 95%;
     padding-bottom: 3rem;
+    border: 3rem;
   }
 
   .intro{
@@ -219,3 +222,59 @@ a{
     }
     
   }
+
+  .footer{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+
+  }
+
+  .foot{
+    color:rgb(197, 197, 197);
+    font-weight:200;
+    font-size: 1rem;
+  }
+
+  .reg-btn{
+    color:rgb(157, 157, 157)
+    
+
+  }
+ 
+  .reg-btn:hover{
+    
+    color:white;
+    
+}
+
+
+
+
+
+.caption{
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  color:rgb(183, 183, 183)
+}
+
+h1{
+  color:white;
+}
+
+.card-title{
+  font-family: 'Bauhaus Modern', sans-serif;
+  margin-bottom: 2rem;
+}
+.works2{
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .works2{
+    display: block;
+  }
+  .works{
+    display: none;
+  }
+  
+}
