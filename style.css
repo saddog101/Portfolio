@@ -3,6 +3,11 @@
     padding-top: 1rem;
 }
 
+body{
+  animation: fadeInAnimation ease 0.5s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+}
 
 @keyframes fadeInAnimation {
   0% {
@@ -118,6 +123,8 @@ h1{
   margin-left: 12%;
   padding-top: 15%;
 }
+
+
 
 .down-btn:hover{
     font-weight: 800;
@@ -278,3 +285,50 @@ h1{
   }
   
 }
+
+.content-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+
+}
+
+.content-subtitle{
+  font-family: 'Bauhaus Modern', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color:rgb(187, 187, 187)
+
+}
+
+
+.text-div{
+  padding-top: 15%;
+  margin-bottom: 5rem;
+}
+
+.section-title{
+  font-family: 'Bauhaus Modern', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color:white;
+
+}
+
+h4{
+
+  font-family: 'Bauhaus Modern', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color:white;
+
+}
+
+ul{
+  color: white;
+}
+
+.content{
+  margin-bottom: 3rem;
+}
+
