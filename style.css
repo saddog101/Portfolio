@@ -107,7 +107,13 @@ h1{
 
 
 
+.sneak{
+  display: none;
+}
 
+.shown{
+  display: block;
+}
 @media(max-width:1000px){
     .hero-div{
         padding-top: 10% !important;
@@ -115,6 +121,15 @@ h1{
     .down-btn{
         display: none !important;
     }   
+    .sneak{
+      display: block !important;
+      width: 90%;
+      margin:auto;
+
+    }
+    .shown{
+      display: none !important;
+    }
 
 }
 
@@ -271,8 +286,8 @@ a{
 
 @media (max-width: 769px) {
   .container{
-    padding-left: 0%;
-  padding-right: 0%;
+    padding-left: 5%;
+  padding-right: 5%;
 
   }
   
@@ -302,6 +317,7 @@ h1{
 @media (max-width: 900px) {
   .works2{
     display: block;
+  
   }
   .works{
     display: none;
