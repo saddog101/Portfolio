@@ -214,6 +214,14 @@ a{
     filter: blur(5px) ;
   }
 
+  .pic-home{
+    width: 95%;
+    padding-bottom: 3rem;
+    border: 3rem;
+
+  
+  }
+
   .intro{
     font-size: 1rem;
   }
